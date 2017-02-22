@@ -1,0 +1,14 @@
+fieldset{
+    background: lightyellow;
+}
+fieldset{
+    border:2px solid yellow;
+margin-bottom: 10px;
+width:720px;}
+label:hover{
+    font-size: 40px;
+}
+#preview{
+    width: 100px;
+    height:100px;
+}

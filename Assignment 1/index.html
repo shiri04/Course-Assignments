@@ -1,0 +1,61 @@
+<html>
+<head>
+    <title>first assignment</title>
+    <meta name="author" content="shirisha">
+    <meta name="description"  content="first assignment">
+    <meta name="keywords" content="HTML, CSS, Javascript">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="new.css">
+    
+    
+    </head>
+
+<body>
+    <h1>Please Enter Your  Details For Our Dating Website</h1>
+    <form action="http://ihome.ust.hk/~rossiter/cgi­bin/show_everything.php" method="post" enctype="multipart/form-data">
+    <fieldset>
+        
+        <legend>Your Face</legend>
+        <label>Your image:</label><input type="file" name="filetoupload" required><br>
+        <label>Image preview:</label>
+            <img id="preview">
+        </fieldset></form>
+    <form>
+    <fieldset>
+        <legend>Your General Details</legend>
+        <label>Name:</label><input type="text" placeholder="Your full name" requried><br>
+        <label>Gender:</label><input type="radio" value="male" name="gender" >male
+        <input type="radio" value="female" name="gender" >female <br>
+        <label>Age:</label><input type="number" min="0" max="99" step="1" name="age" required><br>
+        <label>Date of birth:</label> <input type="date" name="birthday" required><br>
+        <label>Favorite color:</label><input type="color"name="color"><br>
+        <label>Which country:</label>
+        <select name="countries">
+            <option value="ind">India</option>
+            <option value="hg">HongKong</option>
+            <option value="ger">Germany</option>
+            <option value="aus">Australia</option>
+            <option value="afr">Africa</option>
+            <option value="pak">Pakistan</option>
+            <option value="no">Noselection</option>
+        </select></fieldset></form>
+    <from>
+    <fieldset>
+        <legend>
+        Your Indicators</legend>
+        <label>Height:Short</label><input type="range" min="0" max="100" step="5" value="50" name="indicator"><label>Tall </label><br>
+        <label>Salary:poor</label> <input type="range" min="0" max="100"step="5" value="50" name="indicator"><label>Rich</label></fieldset></from>
+    
+    <form>
+    <fieldset>
+        <legend>Your Contact Information</legend>Email:<input type="email" name="email" required><br>
+        <label>Mobile:</label><input type="tel" name="mobile" ><br>
+        <label>Method to contact You:</label><input type="radio" name="contact">Email 
+        <input type="radio" name="contact"><label>Whatsapp</label>
+        <input type="radio" name="contact"><label>In-app chat</label>
+        </fieldset></form>
+    <input type="submit" value="submit">
+    <script src="https://www.cse.ust.hk/~rossiter/dating_web_site.js"></script>
+
+
+    </body></html>
